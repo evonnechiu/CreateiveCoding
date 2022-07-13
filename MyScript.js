@@ -7,7 +7,7 @@ function setup() {
 	
 	colors = colors.concat(colors)
 	
-	createCanvas(1000,1000);
+	createCanvas(windowWidth,windowHeight);
 	background(100);
 	fill(0)
 	rect(0,0,width,height)
